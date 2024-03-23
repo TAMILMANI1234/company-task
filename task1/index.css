@@ -12,30 +12,35 @@
     margin: 0 auto;
     text-align: center;
     padding: 10px;
-    border: 1px solid black;
+    border: 1px solid #000000;
     border-radius:5px;
+    
 
 }
 .form-content .form{
     padding: 10px;
+   
 }
 
 .form-content .form .field{
     padding: 10px;
+    font-size:25px;
 }
 .form-content .form .field input{
     border: none;
+    font-size:20px;
     border-bottom: 1px solid black;
 }
 .form-content .form button{
     background-color: black;
-    padding: 5px;
+    padding: 8px;
     color: white;
     border: none;
+    font-size: 18px;
 
 }
 .create{
-    font-size: 12px;
+    font-size: 18px;
 
 }
 .create a{
@@ -43,51 +48,5 @@
 }
 span{
     color: red;
-    font-size: 12px;
-}
-*{
-    margin: 0px;
-    padding: 0px;
-}
-.header{
-    padding: 5px;
-    text-align: center;
-}
-.form-content{
-    width: 70%;
-    margin: 0 auto;
-    text-align: center;
-    padding: 10px;
-    border: 1px solid black;
-    border-radius:5px;
-
-}
-.form-content .form{
-    padding: 10px;
-}
-
-.form-content .form .field{
-    padding: 10px;
-}
-.form-content .form .field input{
-    border: none;
-    border-bottom: 1px solid black;
-}
-.form-content .form button{
-    background-color: black;
-    padding: 5px;
-    color: white;
-    border: none;
-
-}
-.create{
-    font-size: 12px;
-
-}
-.create a{
-    text-decoration: none;
-}
-span{
-    color: red;
-    font-size: 12px;
+    font-size: 18px;
 }
