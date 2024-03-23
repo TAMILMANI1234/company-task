@@ -12,7 +12,7 @@
      </section>
      <div class="form-content">
 
-           <form class="form" onsubmit="return validation()">
+           <form class="form" onsubmit="validation()">
 
                 <span id="error" class="error"></span>
                 <div class="field">
@@ -88,7 +88,9 @@ console.log(name)
                 isvalid =false;
             }
              
-            return isvalid;
+             if(isvalid==true){
+                alert("Reister successfully go to login")
+             }
 
            
         }
