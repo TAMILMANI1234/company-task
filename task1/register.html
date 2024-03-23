@@ -12,7 +12,7 @@
      </section>
      <div class="form-content">
 
-           <form class="form" onsubmit="validation()">
+           <form class="form" onsubmit="return validation()">
 
                 <span id="error" class="error"></span>
                 <div class="field">
@@ -87,10 +87,9 @@ console.log(name)
                 error.textContent="Password and confirm password must be same";
                 isvalid =false;
             }
-             
-             if(isvalid==true){
-                alert("Reister successfully go to login")
-             }
+            
+           
+            return isvalid;
 
            
         }
